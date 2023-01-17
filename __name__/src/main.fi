@@ -1,0 +1,9 @@
+# main.fi
+
+# `package` is a special name referring to the current package. It's the
+# *only* way to access objects in the package from within the package.
+import package
+
+# $main will be called automatically.
+$main = (...) =>
+    print($args)

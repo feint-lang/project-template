@@ -1,0 +1,13 @@
+[project]
+name = "{{ name }}"
+version = "{{ version }}"
+description = "{{ description }}"
+
+# Dependencies that are always installed
+[dependencies.core]
+x = "^1.2.3"
+y = "^3.2.1"
+
+# Dependencies that are installed only in development
+[dependencies.dev]
+z = "^1.0.1"
